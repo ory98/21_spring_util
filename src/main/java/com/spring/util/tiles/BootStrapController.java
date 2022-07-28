@@ -22,4 +22,9 @@ public class BootStrapController {
 	public String productDetails() {
 		return "/product-details";
 	}
+	
+	@RequestMapping(value="/blog", method=RequestMethod.GET)
+	public String blog() {
+		return "/bootBlog";
+	}
 }
