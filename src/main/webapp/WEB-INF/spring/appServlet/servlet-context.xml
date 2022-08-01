@@ -36,6 +36,7 @@
        <beans:property name="defaultEncoding" value="utf-8" />
     </beans:bean>
 	
-	<context:component-scan base-package="com.spring.util" />
+	<!-- base-package 포함 및 하위 패키지의 @를 스캐닝한다. -->
+	<context:component-scan base-package="com.spring.di" />
 
 </beans:beans>
